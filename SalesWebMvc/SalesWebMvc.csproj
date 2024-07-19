@@ -18,6 +18,8 @@
     <None Include="Views\Departments\Delete.cshtml" />
     <None Include="Views\Departments\Details.cshtml" />
     <None Include="Views\Departments\Edit.cshtml" />
+    <None Include="Views\Departments\Index.cshtml" />
+    <None Include="Views\Departments\Test.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +29,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
   </ItemGroup>
 
 </Project>
