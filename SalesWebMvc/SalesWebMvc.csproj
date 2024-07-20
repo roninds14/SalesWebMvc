@@ -19,10 +19,10 @@
     <None Include="Views\Departments\Details.cshtml" />
     <None Include="Views\Departments\Edit.cshtml" />
     <None Include="Views\Departments\Index.cshtml" />
-    <None Include="Views\Departments\Test.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
       <PrivateAssets>all</PrivateAssets>
